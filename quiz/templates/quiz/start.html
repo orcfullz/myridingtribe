@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +13,7 @@
     </header>
     <main style="text-align: center; margin-top: 50px;">
         <h1 style="color: #333333;">WHICH COMMUTING TRIBE ARE YOU?</h1>
+        <!-- Corrected URL tag syntax -->
         <button onclick="window.location.href='{% url 'quiz_question' 1 %}'" style="background-color: #000000; color: #FFFFFF; padding: 10px 20px; border: none; margin-top: 20px;">START QUIZ!</button>
     </main>
 </body>
